@@ -1,5 +1,10 @@
 # SimpleNotepad
 
-Kotlin + Spring Boot
+Kotlin + Spring Bootで簡易メモアプリ
 
-Request method 'POST' not supportedがググっても解決策が全然ないのでとりあえず泣き寝入り😭
+
+
+参考
+
+putとdeleteでRequest method 'POST' not supported発生。解決策謎😭
+https://qiita.com/ozaki25/items/301d43dfcb1903ef995b
