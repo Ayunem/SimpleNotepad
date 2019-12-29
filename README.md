@@ -6,8 +6,8 @@ Kotlin + Spring Bootで簡易メモアプリ
 ## Impressions
 - Android studio、RailsもMVCなのでなんとなく理解できたような気がする😅
 
-- putとdeleteでRequest method 'POST' not supported（405エラー）が発生  
-  ググっても有用な情報がないため、すべてgetで実装して回避しました  
+- PUTとDELETEでRequest method 'POST' not supported（405エラー）が発生  
+  ググっても解決につながる情報が得られなかった為、GETで実装して回避しました  
 
 - 次回はPostgreSQLを用いることでDBの理解を深めたい  
   
