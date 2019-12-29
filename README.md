@@ -11,7 +11,7 @@ Kotlin + Spring Bootで簡易メモアプリ
 
 - 次回はPostgreSQLを用いることでDBの理解を深めたい  
   
-  
+## Dependencies(備忘録)
 - Kotlin
 - Spring Boot
   - DevTools　（開発補助モジュール）
