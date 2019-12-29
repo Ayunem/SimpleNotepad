@@ -14,11 +14,11 @@ Kotlin + Spring Bootで簡易メモアプリ
 ## Dependencies(備忘録)
 - Kotlin
 - Spring Boot
-  - DevTools　（開発補助モジュール）
-  - JPA　（JPAの機能をベースに 汎用的な Repositoryの機能を提供）
-  - H2　（インメモリDB）
-  - Web　（エンドポイントを簡単に作れる）
-  - Thymeleaf  （テンプレートエンジン）
+  - DevTools  （開発補助モジュール）
+  - JPA       （JPAの機能をベースに 汎用的な Repositoryの機能を提供）
+  - H2        （インメモリDB）
+  - Web       （エンドポイントを簡単に作れる）
+  - Thymeleaf （テンプレートエンジン）
 
 ### 参考
 https://qiita.com/ozaki25/items/301d43dfcb1903ef995b
