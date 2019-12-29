@@ -4,14 +4,14 @@ Kotlin + Spring Bootで簡易メモアプリ
 お気に入りのラーメン屋を登録したりと意外と汎用性ありそう  
 
 ## Impressions
+- Android studioもMVCなのでなんとなく理解できたような気がする😅
+
 - putとdeleteでRequest method 'POST' not supported（405エラー）が発生  
   ググっても有用な情報がないため、すべてgetで実装して回避しました  
 
 - 次回はPostgreSQLを用いることでDBの理解を深めたい
 
 
-putとdeleteでRequest method 'POST' not supported発生。解決策謎😭
-Kotlin + Spring Boot + JPA + H2 + Web + Thymeleaf
 - Kotlin
 - Spring Boot
   - DevTools　（開発補助モジュール）
