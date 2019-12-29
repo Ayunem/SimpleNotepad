@@ -4,7 +4,7 @@ Kotlin + Spring Bootで簡易メモアプリ
 お気に入りのラーメン屋を登録したりと意外と汎用性ありそう  
 
 ## Impressions
-- Android studioもMVCなのでなんとなく理解できたような気がする😅
+- Android studio、RailsもMVCなのでなんとなく理解できたような気がする😅
 
 - putとdeleteでRequest method 'POST' not supported（405エラー）が発生  
   ググっても有用な情報がないため、すべてgetで実装して回避しました  
