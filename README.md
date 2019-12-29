@@ -8,6 +8,10 @@ Kotlin + Spring Bootで簡易メモアプリ
 
 - PUTとDELETEでRequest method 'POST' not supported（405エラー）が発生  
   ググっても解決につながる情報が得られなかった為、GETで実装して回避しました  
+  
+- URLのハイパーリンク生成したい
+
+- ログイン機能あればそれなりのWebアプリになりそう
 
 - 次回はPostgreSQLを用いることでDBの理解を深めたい  
   
