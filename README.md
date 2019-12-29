@@ -9,7 +9,7 @@ Kotlin + Spring Bootで簡易メモアプリ
 - putとdeleteでRequest method 'POST' not supported（405エラー）が発生  
   ググっても有用な情報がないため、すべてgetで実装して回避しました  
 
-- 次回はPostgreSQLを用いることでDBの理解を深めたい
+- 次回はPostgreSQLを用いることでDBの理解を深めたい  
   
   
 - Kotlin
