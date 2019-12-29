@@ -10,8 +10,8 @@ Kotlin + Spring Bootで簡易メモアプリ
   ググっても有用な情報がないため、すべてgetで実装して回避しました  
 
 - 次回はPostgreSQLを用いることでDBの理解を深めたい
-
-
+  
+  
 - Kotlin
 - Spring Boot
   - DevTools　（開発補助モジュール）
