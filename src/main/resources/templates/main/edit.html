@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MEMO APP!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+</head>
+<body>
+
+<section class="hero is-dark">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                登録修正
+            </h1>
+        </div>
+    </div>
+</section>
+
+<section class="section has-background-white">
+    <div class="container">
+        <form th:action="@{/main/upd/{id}(id=*{id})}" th:method="get" th:object="${player}">
+
+            <div class="box has-background-light">
+
+                <div class="field">
+                    <label class="label">日付</label>
+                    <div class="control">
+                        <input class="input" type="text" th:field="*{date}" />
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">タイトル</label>
+                    <div class="control">
+                        <input class="input" type="text" th:field="*{title}">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">名前</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-success" type="text" th:field="*{name}">
+                        <span class="icon is-small is-left">
+              <svg class="svg-inline--fa fa-user fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="user" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path></svg><!-- <i class="fas fa-user"></i> -->
+            </span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">URL</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-danger" type="text" th:field="*{address}">
+                        <span class="icon is-small is-left">
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">備考</label>
+                    <div class="control">
+                        <textarea class="textarea" th:field="*{note}"></textarea>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button class="button is-link" type="submit">Submit</button>
+                    </div>
+                    <div class="control">
+                        <button class="button is-text" href="/main">Cancel</button>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+        <hr style="margin-bottom:0.5rem;">
+    </div>
+</section>
+
+</body>
+</html>
