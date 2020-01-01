@@ -21,6 +21,7 @@ Kotlin + Spring Bootで簡易メモアプリ
   - H2        （インメモリDB）
   - Web       （エンドポイントを簡単に作れる）
   - Thymeleaf （テンプレートエンジン）
+- Bulma
 
 ### 参考
 https://qiita.com/ozaki25/items/301d43dfcb1903ef995b
